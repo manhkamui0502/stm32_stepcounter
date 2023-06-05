@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+"stepcounter\startup_stm32f103xb.o"
+"stepcounter\fonts.o"
+"stepcounter\ssd1306.o"
+"stepcounter\mpu6050.o"
+"stepcounter\filter.o"
+"stepcounter\main.o"
+"stepcounter\gpio.o"
+"stepcounter\i2c.o"
+"stepcounter\rcc.o"
+"stepcounter\stm32f103c8t6.o"
+"stepcounter\tim2.o"
+"stepcounter\system_stm32f1xx.o"
+--strict --scatter "StepCounter\StepCounter.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "StepCounter.map" -o StepCounter\StepCounter.axf
