@@ -181,14 +181,14 @@ int main(void) {
 				SSD1306_Puts("State:    Running", &Font_7x10, 1);
 				for (int i = 0;i < SAMPLE_RATE; i++) {
 					if((magnitude[i] > magnitude[i+1]) && (magnitude[i] > magnitude[i+1])) {
-						if((fabs(magnitude[i] - mag_mean) > 1.2 * dynamic_thres) && (flag == true)) {
+						if((fabs(magnitude[i] - mag_mean) > 1.13 * dynamic_thres) && (flag == true)) {
 							step_run++;
 							steps++;
 							flag = false;
 							run = true;
 							pos = i;
 							break;
-						} else if ((fabs(magnitude[i] - mag_mean) > dynamic_thres) && (fabs(magnitude[i] - mag_mean) < 1.2 * dynamic_thres) && (flag == true)) {
+						} else if ((fabs(magnitude[i] - mag_mean) > dynamic_thres) && (fabs(magnitude[i] - mag_mean) < 1.13 * dynamic_thres) && (flag == true)) {
 							step_walk++;
 							steps++;
 							flag = false;
