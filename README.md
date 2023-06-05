@@ -15,7 +15,8 @@ Bài tập lớn cuối kỳ môn nhập môn hệ thống nhúng - Step Counter
 - Buck 3A MP1584EN Mini
 - 3D printed mount
 - 2 button (Reset and Pause)
-
+## Schematic
+![Untitled Sketch_bb](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/da4453e9-5e36-4e95-96df-5357aba3e6d9)
 ## Systems
 - Build with Keil C
 
