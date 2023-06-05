@@ -13,9 +13,6 @@ extern C {
  * @{
  */
 
-/**
- * @brief  Font structure used on my LCD libraries
- */
 typedef struct {
 	uint8_t FontWidth;    /*!< Font width in pixels */
 	uint8_t FontHeight;   /*!< Font height in pixels */
