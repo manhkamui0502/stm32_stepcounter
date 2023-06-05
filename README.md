@@ -48,6 +48,6 @@ Bài tập lớn cuối kỳ - Step Counter using STM32F103C8T6 with MPU6050 and
 
 #### Some picture
 - Running 
-![348361134_710521987505572_8976193415910899223_n](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/d776d253-4a9c-4f0b-bfb1-89eebb208754)
+![348361442_997415178053050_7887417431823711945_n](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/2f94f4f7-a22e-43fa-a4a7-d6d4ce855f4e)
 - Pause
 ![352093601_570339658559724_456006455266362022_n](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/73493aa4-2d46-4c64-8ff7-8e210a821da4)
