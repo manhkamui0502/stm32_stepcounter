@@ -1,4 +1,4 @@
-# STM32F103C8T6 _ STEP COUNTER (ELT3240 1)
+# STM32F103C8T6 _ STEP COUNTER (ELT3240 2)
 ## Introduction
 Bài tập lớn cuối kỳ môn nhập môn hệ thống nhúng - Step Counter using STM32F103C8T6 with MPU6050 and OLED display 
 ## Contributors
