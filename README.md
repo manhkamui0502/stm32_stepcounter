@@ -48,6 +48,7 @@ Bài tập lớn cuối kỳ môn nhập môn hệ thống nhúng - Step Counter
 
 #### Some picture
 - Running 
-![348361442_997415178053050_7887417431823711945_n](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/2f94f4f7-a22e-43fa-a4a7-d6d4ce855f4e)
+![r](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/61aa4268-c2c6-4751-b12c-4cea07301277)
+
 - Pause
-![352093601_570339658559724_456006455266362022_n](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/73493aa4-2d46-4c64-8ff7-8e210a821da4)
+![p](https://github.com/manhkamui0502/stm32_stepcounter/assets/92159614/0b76b8da-bcb6-4525-b48f-a75998993e5d)
