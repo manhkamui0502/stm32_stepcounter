@@ -258,23 +258,14 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.PLL.PLLState = 0x00000000U;
-  if (RCC_OscConfig(&RCC_OscInitStruct) != OK)
-  {
-    Error_Handler();
-  }
-
-
+  RCC_OscConfig(&RCC_OscInitStruct);
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_CFGR_HPRE_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_CFGR_PPRE1_DIV1;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_CFGR_PPRE1_DIV1;
-
-  if (RCC_ClockConfig(&RCC_ClkInitStruct, 0x00000000U) != OK)
-  {
-    Error_Handler();
-  }
+  RCC_ClockConfig(&RCC_ClkInitStruct, 0x00000000U);
 }
 
 static void I2C_INIT(void)
